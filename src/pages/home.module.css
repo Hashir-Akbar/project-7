@@ -1,0 +1,123 @@
+.home {
+  background: white;
+}
+
+.hero_header {
+  padding: 42px;
+  text-align: center;
+
+}
+
+.hero_header h1 {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.hero_header h6 span {
+  padding: 2px 6px;
+  background: #000;
+  color: white;
+}
+
+.img_group {
+  position: relative;
+  color: white;
+}
+
+
+.img_group .img_group_body {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  letter-spacing: 4px;
+}
+
+.img_group .img_group_body h5 {
+  font-size: 36px;
+}
+
+.img_group .img_group_body h2 {
+  font-size: 64px;
+}
+
+.img_group .img_group_body h6 button {
+  padding: 12px 24px;
+  border: none;
+  background: #ccc;
+  opacity: 0.60;
+  cursor: pointer;
+}
+
+.img_group .img_group_body h6 button:hover {
+  opacity: 1;
+}
+
+.display_none {
+  display: none;
+}
+
+.subscribe_btn_block {
+  width: 900px;
+  margin-inline: auto;
+  position: fixed;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  padding: 32px;
+  color: black;
+}
+
+.subscribe_btn_block .modal_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subscribe_btn_block .modal_head .modal_close_icon {
+  cursor: pointer;
+  padding: 8px 12px;
+}
+
+.subscribe_btn_block .modal_head .modal_close_icon:hover {
+  background: #ccc;
+}
+
+.subscribe_btn_block form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.subscribe_btn_block form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.subscribe_btn_block form input:last-child {
+  border: none;
+  background: #f44336;
+  color: #fff;
+  cursor: pointer;
+  padding: 12px 24px;
+}
+
+.subscribe_btn_block form input:last-child:hover {
+  background: #ccc;
+  color: #000;
+}
+
+.blog_about_grid {
+  display: grid;
+  grid-template-columns: 66.66% 33.33%;
+  padding: 26px;
+  gap: 1em;
+}
+
+.blog_sec {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}

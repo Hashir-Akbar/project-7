@@ -1,0 +1,17 @@
+.card {
+  margin-inline: 20px;
+}
+
+.card_head {
+  background: #000;
+  color: white;
+}
+
+.card_head img {
+  width: 100%;
+  filter: grayscale(75%);
+}
+
+.card_head .card_head_txt {
+  padding: 0em 1em 1em 1em;
+}

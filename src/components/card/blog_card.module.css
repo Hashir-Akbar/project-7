@@ -1,0 +1,83 @@
+.card {
+  padding: 12px 24px;
+  background: white;
+  text-align: justify;
+}
+
+.card .card_header {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.card .card_body,
+.card .card_footer {
+
+  display: flex;
+}
+
+.card .card_body {
+  flex-direction: column;
+}
+
+.card .card_footer {
+  justify-content: space-between;
+  padding-bottom: 1.5em;
+}
+
+.card .card_body p:nth-child(2) {
+  padding-top: 2em;
+
+}
+
+.card .card_body p>.boldStart {
+  font-weight: 700;
+}
+
+.card .card_body p:nth-child(3) {
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+.card .card_footer button {
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  background: none;
+  font-weight: bold;
+  display: flex;
+  gap: .5em;
+  align-items: center;
+}
+
+
+.card .card_footer button:last-child {
+  background: #000;
+  color: white;
+}
+
+.card .card_footer button:last-child .replies {
+  padding-inline: 8px;
+  background: #fff;
+  color: #000;
+}
+
+.card .card_footer button:hover {
+  background: #ccc;
+  color: #000;
+  cursor: pointer;
+}
+
+.comments {
+  display: flex;
+  gap: 3em;
+  padding-block: 1.5em;
+  border-top: 1px solid #f1f1f1;
+}
+
+.comments img {
+  width: 90px;
+}
+
+.comments .commenter_details .comment_date {
+  font-size: 15px;
+  opacity: 0.6;
+}
