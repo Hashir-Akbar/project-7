@@ -3,7 +3,7 @@ import navStyles from './navbar.module.css'
 
 const Navbar = () => {
   return (
-    <header className={navStyles.header}>
+    <header className={navStyles.header} id="top">
       <ul className={navStyles.social_icons}>
         <li>
           <a href="#">

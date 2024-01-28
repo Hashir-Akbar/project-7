@@ -1,5 +1,6 @@
 .card {
   margin-inline: 20px;
+
 }
 
 .card_head {
@@ -14,4 +15,113 @@
 
 .card_head .card_head_txt {
   padding: 0em 1em 1em 1em;
+}
+.card_head_second .card_head_txt{
+
+  padding: .5em 1em;
+}
+.popularPosts{
+  display: flex;
+  gap: 1em;
+  padding: 8px 16px;
+  background: white;
+  border-top: 1px solid #ccc;
+}
+.popularPosts:hover{
+  background: #ccc;
+  cursor: pointer;
+}
+.popularPosts img{
+ width: 50px;
+}
+.popularPosts > div {
+  display: flex;
+  flex-direction: column;
+  gap: .3em;
+}
+
+.popularPosts > div span:first-child{
+  font-size: 18px;
+}
+.yourAd{
+  
+  padding: 1em;
+  background-color: white;
+}
+.yourAd div {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height:160px ;
+}
+.tags div {
+  display: flex;
+  gap: .5em;
+  flex-wrap: wrap;
+  background: white;
+  padding: 1.5em 1em;
+  align-items: baseline;
+
+}
+.tags div span {
+  padding-inline: 8px;
+  background: #f1f1f1;
+  font-size: 12px;
+
+  
+}
+.tags div span:first-child{
+  background: #000;
+  color: white;
+  padding: 4px 12px;
+  font-size: 14px;
+}
+.inspire{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  padding: 1em ;
+  background-color: #fff;
+}
+.social_icons{
+  display: flex;
+  gap: .3em;
+  font-size: 25px;
+  padding: 1em;
+  background: #fff;
+}
+.social_icons > * {
+  cursor: pointer;
+}
+.form{
+  padding: 1em;
+  background-color: #fff;
+  
+}
+.form > form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
+  margin-top: 1em;
+}
+.form > form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+.form > form input[type="button"]{
+ background-color: #f44336;
+ border: none;
+ color: #fff;
+}
+.form > form input[type="button"]:hover{
+  cursor: pointer;
+  background-color: #ccc;
+  color: black;
+}
+@media (max-width: 992px){
+  .card {
+    margin-inline: 0;
+  
+  }
 }
